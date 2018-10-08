@@ -20,9 +20,13 @@ public class Bankdata
     
     public static void main(String[] args)
     {
-        Bankdata bd = new Bankdata();
-        bd.readMaster();
-        //bd.printData();
+        //MyDatabase.createDatabase("bank.db");
+        //MyDatabase.dropTables();
+        //MyDatabase.createTables();
+        //ReadFiles.readMaster();
+        ReadFiles.readDetail();
+        
+
     }
     
     public void readMaster()
